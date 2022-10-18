@@ -48,115 +48,55 @@ function Footer(props) {
           </Col>
           <Col md={{ span: 7, offset: 1 }} lg={{ span: 6, offset: 2 }}>
             <div className="FooterComponent__menus">
+            <h5>Services</h5>
               <Row>
                 <Col xs={12} md={4} className="mt-3 mt-md-0">
-                  <h5>Services</h5>
-                  <ul className="list-unstyled">
-                    <li>
-                      <Link href="#">
-                        <a>Cerec Technology</a>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="#">
-                        <a>Bridges</a>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="#">
-                        <a>Implants</a>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="#">
-                        <a>Sleep Appliances</a>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="#">
-                        <a>Whitening</a>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="#">
-                        <a>Invisalign Ortho Aligners</a>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="#">
-                        <a>Hygiene Therapy</a>
-                      </Link>
-                    </li>
-                  </ul>
+                  <Row>
+                    <Col xs={12} md={4} className="mt-3 mt-md-0">
+                    <ul className="list-unstyled">
+                      <li className="FooterComponent__footer-service-item">
+                        <Link href="#">
+                          <a>Cerec Technology</a>
+                        </Link>
+                      </li>
+                      <li className="FooterComponent__footer-service-item">
+                        <Link href="#">
+                          <a>Bridges</a>
+                        </Link>
+                      </li>
+                      <li className="FooterComponent__footer-service-item">
+                        <Link href="#">
+                          <a>Implants</a>
+                        </Link>
+                      </li>
+                      <li className="FooterComponent__footer-service-item">
+                        <Link href="#">
+                          <a>Sleep Appliances</a>
+                        </Link>
+                      </li>
+                    </ul>
+                    </Col>
+                  </Row>
                 </Col>
-                <Col xs={12} md={4} className="mt-3 mt-md-0">
-                  <h5>Company</h5>
-                  <ul className="list-unstyled">
-                    <li>
-                      <Link href="/">
-                        <a>Home</a>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="/about">
-                        <a>About</a>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="/contact">
-                        <a>Contact</a>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="/contact">
-                        <a>Patient Forms & Downloads</a>
-                      </Link>
-                    </li>
-                  </ul>
-                </Col>
-                <Col xs={12} md={4} className="mt-3 mt-md-0">
-                  <h5>Social</h5>
-                  <ul className="list-unstyled">
-                    <li>
-                      <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href="https://twitter.com/divjoy"
-                      >
-                        <img
-                          src="https://uploads.divjoy.com/icon-twitter.svg"
-                          alt="Twitter"
-                        />
-                        Twitter
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href="https://facebook.com/DivjoyOfficial"
-                      >
-                        <img
-                          src="https://uploads.divjoy.com/icon-facebook.svg"
-                          alt="Facebook"
-                        />
-                        Facebook
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href="https://instagram.com"
-                      >
-                        <img
-                          src="https://uploads.divjoy.com/icon-instagram.svg"
-                          alt="Instagram"
-                        />
-                        Instagram
-                      </a>
-                    </li>
-                  </ul>
+
+                <Col xs={12} md={3} className="mt-3 mt-md-0">
+                <ul className="list-unstyled">
+                      <li className="FooterComponent__footer-service-item">
+                        <Link href="#">
+                          <a>Whitening</a>
+                        </Link>
+                      </li>
+                      <li className="FooterComponent__footer-service-item">
+                        <Link href="#">
+                          <a>Invisalign Ortho Aligners</a>
+                        </Link>
+                      </li>
+                      <li className="FooterComponent__footer-service-item">
+                        <Link href="#">
+                          <a>Hygiene Therapy</a>
+                        </Link>
+                      </li>
+                    </ul>
                 </Col>
               </Row>
             </div>
