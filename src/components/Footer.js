@@ -50,10 +50,8 @@ function Footer(props) {
             <div className="FooterComponent__menus">
             <h5>Services</h5>
               <Row>
-                <Col xs={12} md={4} className="mt-3 mt-md-0">
-                  <Row>
-                    <Col xs={12} md={4} className="mt-3 mt-md-0">
-                    <ul className="list-unstyled">
+                <Col xs={12} md={3} className="mt-3 mt-md-0">
+                  <ul className="list-unstyled">
                       <li className="FooterComponent__footer-service-item">
                         <Link href="#">
                           <a>Cerec Technology</a>
@@ -75,27 +73,25 @@ function Footer(props) {
                         </Link>
                       </li>
                     </ul>
-                    </Col>
-                  </Row>
                 </Col>
 
                 <Col xs={12} md={3} className="mt-3 mt-md-0">
                 <ul className="list-unstyled">
-                      <li className="FooterComponent__footer-service-item">
-                        <Link href="#">
-                          <a>Whitening</a>
-                        </Link>
-                      </li>
-                      <li className="FooterComponent__footer-service-item">
-                        <Link href="#">
-                          <a>Invisalign Ortho Aligners</a>
-                        </Link>
-                      </li>
-                      <li className="FooterComponent__footer-service-item">
-                        <Link href="#">
-                          <a>Hygiene Therapy</a>
-                        </Link>
-                      </li>
+                        <li className="FooterComponent__footer-service-item">
+                          <Link href="#">
+                            <a>Whitening</a>
+                          </Link>
+                        </li>
+                        <li className="FooterComponent__footer-service-item">
+                          <Link href="#">
+                            <a>Invisalign Ortho Aligners</a>
+                          </Link>
+                        </li>
+                        <li className="FooterComponent__footer-service-item">
+                          <Link href="#">
+                            <a>Hygiene Therapy</a>
+                          </Link>
+                        </li>
                     </ul>
                 </Col>
               </Row>

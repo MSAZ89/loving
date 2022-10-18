@@ -22,9 +22,9 @@ function MyApp({ Component, pageProps }) {
         size="md"
         bgImage=""
         bgImageOpacity={1}
-        description="A short description of what you do here"
-        copyright={`© ${new Date().getFullYear()} Company`}
-        logo="https://uploads.divjoy.com/logo.svg"
+        description=""
+        copyright={`© ${new Date().getFullYear()} Loving Family Dental`}
+        logo="https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,f_auto,q_auto:eco,dpr_1/fqtogptgxqezm3cgoax5"
       />
     </>
   );
