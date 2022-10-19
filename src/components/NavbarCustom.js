@@ -8,14 +8,13 @@ import Link from "next/link";
 function NavbarCustom(props) {
 
   const dropdownServicesItems = [
-    {text: "Service 1", url: "/services/service1"},
-    {text: "Service 2", url: "/services/service2"},
-    {text: "Service 3", url: "/services/service3"},
-    {text: "Service 4", url: "/services/service4"},
-    {text: "Service 5", url: "/services/service5"},
-    {text: "Service 6", url: "/services/service6"},
-    {text: "Service 7", url: "/services/service7"},
-    {text: "Service 8", url: "/services/service8"},
+    {text: "Cerec Technology", url: "/services/cerec-technology"},
+    {text: "Bridges", url: "/services/bridges"},
+    {text: "Implants", url: "/services/implants"},
+    {text: "Sleep Appliances", url: "/services/sleep-appliances"},
+    {text: "Whitening", url: "/services/whitening"},
+    {text: "Invisalign Ortho Aligners", url: "/services/invisalign-ortho-aligners"},
+    {text: "Hygiene Therapy", url: "/services/hygiene-therapy"},
   ]
 
   const serviceLinks = dropdownServicesItems.map((item) => {
