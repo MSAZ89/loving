@@ -15,7 +15,7 @@ function Footer(props) {
       bgImageOpacity={props.bgImageOpacity}
       className="footer"
     >
-      <Container fluid="lg">
+      <Container fluid="sm">
         <Row>
           <Col>
             <Link href="/">

@@ -1,5 +1,6 @@
 @charset "utf-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;800&display=swap');
 // COLORS
 $theme-colors: (
   "primary": #008390,
@@ -53,4 +54,20 @@ $grid-breakpoints: (
   > * {
     flex-shrink: 0;
   }
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.mt-40 {
+  margin-top: 40px;
+}
+
+.mt-60 {
+  margin-top: 60px;
+}
+
+html, body, * {
+  font-family: 'Cinzel', serif;
 }
