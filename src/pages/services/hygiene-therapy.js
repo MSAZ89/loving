@@ -11,7 +11,6 @@ function HygieneTherapy(props) {
       <Meta title={pageName} />
       <CardHero title={pageName}/>
     </Container>
-
   );
 }
 

@@ -11,7 +11,7 @@ import CardHero from "components/CardHero";
 function IndexPage(props) {
   return (
     <>
-      <Meta />
+      <Meta title="Fountain Hills Dentist - Loving Family Dental" description="Loving Family Dental locationed in Fountain Hills, Arizona." />
       <Container>
         <CardHero title="Loving Family Dental"/>
         <WhyChoose/>

@@ -30,10 +30,9 @@ function NavbarCustom(props) {
       bg={props.bg}
       variant={props.variant}
       expand={props.expand}
-      className="mx-auto p-4"
-    >
-      <Container>
-        <Navbar.Toggle aria-controls="navbar-nav" className="border-0" />
+      className="mx-auto p-4">
+      <Container className="text-center">
+        <Navbar.Toggle aria-controls="navbar-nav" className="border-0 mx-auto" />
         <Navbar.Collapse id="navbar-nav" className="justify-content-end">
           <Nav>
             <Link href="/" passHref={true}>
