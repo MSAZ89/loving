@@ -9,7 +9,7 @@ function HygieneTherapy(props) {
   return (
     <Container>
       <Meta title={pageName} />
-      <CardHero title={pageName}/>
+      <CardHero title={pageName}  src="https://i.picsum.photos/id/505/600/600.jpg?hmac=1jzzUVDWeHVUXaWVLODfKx6FKw3eO4I6J-rM8EBV0tA"/>
     </Container>
   );
 }

@@ -9,7 +9,7 @@ function Implants(props) {
   return (
     <Container>
       <Meta title={pageName} />
-      <CardHero title={pageName}/>
+      <CardHero title={pageName} src="https://i.picsum.photos/id/484/600/600.jpg?hmac=9OHSJscWrVZfDlxHGHF6sxgB8sKwcvTmft5ItihZ0GU"/>
     </Container>
 
   );
