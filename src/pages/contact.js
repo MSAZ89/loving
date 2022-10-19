@@ -1,6 +1,7 @@
 import React from "react";
 import Meta from "components/Meta";
 import ContactSection from "components/ContactSection";
+import Image from "react-bootstrap/Image";
 
 function ContactPage(props) {
   return (
@@ -13,7 +14,14 @@ function ContactPage(props) {
         bgImage=""
         bgImageOpacity={1}
         title="Contact Us"
-        subtitle="We strive to make our customers happy! And no, we didn't know about the similarly titled movie. Please stop asking about that."
+        subtitle={
+        <>
+        <a className="lg-text" href="tel: +1 (480) 836-7600" target="_blank">+1 (480) 836-7600</a> 
+        <br/>
+        <p>16838 E Palisades Blvd Bldg A, Ste 111, Fountain Hills, AZ 85268</p>
+        <div className="mx-auto text-center"><Image width={"40%"} src="/logo.png" fluid={true} /></div>
+        </>
+        }
         buttonText="Send message"
         buttonColor="primary"
         showNameField={false}

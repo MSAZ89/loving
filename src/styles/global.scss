@@ -68,18 +68,54 @@ $grid-breakpoints: (
   margin-top: 60px;
 }
 
+
+.mb-20 {
+  margin-bottom: 20px
+}
+
+.mb-40 {
+  margin-bottom: 40px
+}
+
+.mb-60 {
+  margin-bottom: 60px
+}
+
 html, body, * {
   font-family: 'Cinzel', serif;
 }
 
 .carousel-review-label {
   color: black;
+  font-weight: 600;
 }
 
 .carousel-review-text {
   color: black;
+  font-weight: 300;
+  font-size: 1.2em;
 }
 
-.carousel-indicators li {
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { .carousel-review-text {height: 40vh} }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { .carousel-review-text {height: 30vh} }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { .carousel-review-text {height: 25vh} }
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { .carousel-review-text {height: 20vh} }
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) { .carousel-review-text {height: 17vh} }
+
+ .carousel-indicators li {
   background-color:rgb(65, 65, 65);
+}
+
+.lg-text {
+  font-size: 1.2em;
 }

@@ -20,6 +20,12 @@ export default function OurReviews () {
                 </Carousel.Item>
                 <Carousel.Item>
                     <p className="carousel-review-text mb-40">
+                    Dr. Loving changed my life. After having major dental problems all my adult life, he walked me through the process to get my smile back. He made every step of the procedures easy to deal with financially while working with the oral surgeon he recommended. The after care has been nothing short of amazing. I trust his judgements and skill as a dentist. We are lucky to have him here in Fountain Hills.
+                    </p>        
+                    <h5 className='carousel-review-label'>Megan.</h5>
+                </Carousel.Item>
+                <Carousel.Item>
+                    <p className="carousel-review-text mb-40">
                     My entire family loves this dental practice and in 4 years none of us has ever had a single complaint. From the time you walk in the door, you feel welcome. They always seem to be on time but never rushed. They are all professional and personable—from the front desk, to the hygienists, to the eponym dentists. The entire operation is a class act. I often have to reschedule because I have a dynamic travel schedule; even then, they are matter-of-fact and accommodating. If I could give six stars, I would. They are that good.
                     </p>        
                     <h5 className='carousel-review-label'>Murf.</h5>

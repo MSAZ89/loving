@@ -12,9 +12,9 @@ function PatientFormsAndDownloadsPage(props) {
         size="md"
         bgImage=""
         bgImageOpacity={1}
-        title="Patient Forms & Downloads"
+        title="Patient Forms"
         subtitle="Loving Family Dental"
-        image="https://uploads.divjoy.com/undraw-japan_ubgk.svg"
+        image="/logo.png"
         buttonText="Get Started"
         buttonColor="primary"
         buttonPath="/"

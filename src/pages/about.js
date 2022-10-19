@@ -14,8 +14,8 @@ function AboutPage(props) {
         bgImageOpacity={1}
         title="About Us"
         subtitle="Loving Family Dental"
-        image="https://uploads.divjoy.com/undraw-japan_ubgk.svg"
-        buttonText="Get Started"
+        image="/logo.png"
+        buttonText="Learn More"
         buttonColor="primary"
         buttonPath="/pricing"
       />
